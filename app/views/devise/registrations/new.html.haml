@@ -1,21 +1,17 @@
-%h2 Sign up
-= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
-  = devise_error_messages!
-  .field
-    = f.label :email
-    %br/
-    = f.email_field :email, autofocus: true
-  .field
-    = f.label :password
-    - if @minimum_password_length
-      %em
-        (#{@minimum_password_length} characters minimum)
-    %br/
-    = f.password_field :password, autocomplete: "off"
-  .field
-    = f.label :password_confirmation
-    %br/
-    = f.password_field :password_confirmation, autocomplete: "off"
-  .actions
-    = f.submit "Sign up"
-= render "devise/shared/links"
+.container.p-h-xl
+  .col-md-8.col-md-offset-2
+    %h1 Sign Up
+    = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+      = devise_error_messages!
+      .form-group{class: "#{f.error_css(:email)}"}
+        = f.label :email, class: "col-sm-3 control-label"
+        .col-sm-9= f.email_field :email, class: "form-control"
+      .form-group{class: "#{f.error_css(:password)}"}
+        = f.label :password, class: "col-sm-3 control-label"
+        .col-sm-9= f.password_field :password, class: 'form-control'
+      .form-group{class: "#{f.error_css(:password_confirmation)}"}
+        = f.label :password_confirmation, class: "col-sm-3 control-label"
+        .col-sm-9= f.password_field :password_confirmation, class: 'form-control'
+      .form-group
+        .col-sm-9.col-sm-offset-3
+          .m-t= f.submit 'Sign up', class: "btn btn-primary"

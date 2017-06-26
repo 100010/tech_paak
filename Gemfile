@@ -9,7 +9,6 @@ end
 gem 'rails', '~> 5.1.1'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
-gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
@@ -25,7 +24,10 @@ gem 'mini_magick'
 
 gem 'cocoon'
 
+gem 'i18n'
+
 gem 'sass-rails', '~> 5.0'
+gem 'bootstrap-sass'
 source 'https://rails-assets.org' do
   gem 'rails-assets-chosen'
   gem 'rails-assets-flexslider'

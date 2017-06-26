@@ -1,0 +1,15 @@
+table.table-align-middle tr td {
+  vertical-align: middle;
+}
+
+table.borderless {
+  td, th {
+    border: none !important;
+  }
+}
+
+.js-table-sortable {
+  tr.js-sortable-item {
+    cursor: row-resize;
+  }
+}

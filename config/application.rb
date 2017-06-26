@@ -25,7 +25,10 @@ module TechPaak
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
-    # Don't generate system test files.
+    # Don't generate system test files
+    config.i18n.available_locales = %i(ja)
+    config.i18n.enforce_available_locales = true
+    config.i18n.default_locale = :ja
     config.generators.system_tests = nil
   end
 end

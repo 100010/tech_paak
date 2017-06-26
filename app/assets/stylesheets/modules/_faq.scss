@@ -1,0 +1,80 @@
+.faq-main-area {
+  padding: 40px 0;
+}
+
+.faq-side-nav-area {
+
+}
+
+.faq-topic {
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-align: center;
+  color: $gray-color;
+  margin: 0 0 48px;
+}
+
+.faq-description-area {
+  border-radius: 4px;
+}
+
+.description-block {
+  background-color: #fff;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.faq-main-title {
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: $gray-color;
+}
+
+.faq-sub-title {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.faq-sub-description {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: $gray-color;
+}
+
+.faq-contents-title {
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: $gray-color;
+  margin-top: 35px;
+}
+
+.faq-contents-description-box {
+  margin: 30px 0;
+}
+
+.faq-contents-sub-title {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.faq-contents-description {
+  margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: $gray-color;
+}
+
+.faq-description-underline {
+  text-decoration: underline;
+  font-weight: bold;
+}

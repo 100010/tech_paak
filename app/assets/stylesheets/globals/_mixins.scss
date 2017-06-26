@@ -1,0 +1,32 @@
+@mixin font-body {
+  font-family: "jaf-domus", "Hiragino Sans", sans-serif; // 100, 200, 300, 400, 600, 700
+}
+
+@mixin font-xl {
+  font-size: $font-size-xl;
+  line-height: $line-height-xl;
+}
+
+@mixin font-lg {
+  font-size: $font-size-lg;
+  line-height: $line-height-lg;
+  letter-spacing: 4px;
+}
+
+@mixin font-md {
+  font-size: $font-size-md;
+  line-height: $line-height-md;
+  letter-spacing: 2px;
+}
+
+@mixin font-m {
+  font-size: $font-size-m;
+  line-height: $line-height-m;
+  letter-spacing: 1px;
+}
+
+@mixin font {
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: 1px;
+}
